@@ -1,19 +1,17 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
 
-import Header from "./Header";
-import About from "./Pages/About";
-import Contact from "./Pages/Contact";
-import Home from "./Pages/Home";
-import Resume from "./Pages/Resume";
-import Skill from "./Pages/Skill";
+import About from "./PageSections/About";
+import Contact from "./PageSections/Contact";
+import Home from "./PageSections/Home";
+import Resume from "./PageSections/Resume";
+import Skill from "./PageSections/Skill";
 
 export default function Page({ childElement }) {
   return (
     <div className="bg-gradient-to-r from-colorbg1 to-colorbg2 m-auto w-[80%] h-[90vh] border-4 border-colorGreyLight justify-around items-center overflow-y-scroll scroll-smooth no-scrollbar slidein transition-all duration-300">
       <Home />
       <About childElement={childElement} />
-
       <Skill />
       <Resume />
       <Contact />
