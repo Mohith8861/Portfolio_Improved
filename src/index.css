@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .clipHome {
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 8vw), 0 100%);
+  }
+
+  .clipHeader {
+    clip-path: polygon(20% 0, 100% 0, 100% 100%, 0 100%);
+  }
+
+  .clipHome {
+    clip-path: polygon(0 0, 100% 0, 90% 100%, 0 100%);
+  }
+
+  .clipHome2 {
+    clip-path: polygon(0 8vw, 100% 0, 100% calc(100% - 8vw), 0 100%);
+  }
+
+  .skillShadow {
+    box-shadow: rgba(100, 100, 111, 0.2) 2px 7px 39px 2px;
+  }
+
+  .skillBg {
+    /* background-image: linear-gradient(to right, #7dd4fc88, #0ea4e9ab); */
+    background-image: linear-gradient(to right, #0ea4e9ab, #0ea4e9ab);
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .homeBG1 {
+    background-image: linear-gradient(to right, #ffffff54, #ffffff54),
+      url("/snow-1868299_1920.jpg");
+  }
+  .homeBG2 {
+      background-image: linear-gradient(to right, #f3f3f3c2, #f3f3f3c2),
+          url("/denys-nevozhai-duo-xV0TU7s-unsplash.jpg");
+  }
+  .slidein {
+    animation: 1s ease-out 0s 1 slideInFromBottom;
+  }
+  .slideup {
+      animation: 1s ease-out 0s 1 slideInFromUp;
+  }
+  @keyframes slideInFromBottom {
+    0% {
+      transform: translateY(-50%);
+    }
+
+    100% {
+      transform: translateX(0);
+    }
+  }
+  @keyframes slideInFromUp {
+      0% {
+          transform: translateY(100%);
+      }
+
+      100% {
+          transform: translateX(0);
+      }
+  }
+}
