@@ -26,7 +26,7 @@ export default function Header({ scrollToSection }) {
         <div className="w-full flex flex-col justify-around gap-6">
           <div className="h-full w-full flex gap-4 items-center text-[1.2rem] px-4 py-4 font-semibold leading-8 hover:bg-colorSelectLight hover:text-colorGreyLight transition-all duration-300 ease-in text-center">
             <a
-              href="Home"
+              href="#Home"
               className="flex items-center gap-2"
               onClick={() => scrollToSection("Home")}>
               <svg
