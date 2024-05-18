@@ -20,7 +20,7 @@ export default function Resume() {
         <div className="text-[1.3rem]">
           <p className="text-center">AWS Certified Cloud Practitioner</p>
           <div className="mx-auto mb-8 w-[15rem] h-[15rem] rounded-full overflow-hidden">
-            <img src="public\aws.png" className="w-full h-full" alt="" />
+            <img src="/aws.png" className="w-full h-full" alt="" />
           </div>
         </div>
       </div>
