@@ -5,9 +5,9 @@ export default function Contact() {
       id="Contact"
       className="homeBG2 py-8 bg-cover w-full h-full rounded-md shadow-lg justify-center items-center flex-col">
       <div className="w-full bg-colorGreyLight py-8 mb-8 text-colorTextB text-[1.3rem] font-[450] text-center flex max-md:flex-col max-md:w-full gap-6 justify-around">
-        <p>Phone : 9121264144 </p>
-        <p>Email : mohith8861@gmail.com </p>
-        <p>Language : English,Telugu, Hindi</p>
+        <p className="border-l-4 px-2 ">Phone : 9121264144 </p>
+        <p className="border-l-4 px-2 ">Email : mohith8861@gmail.com </p>
+        <p className="border-l-4 px-2 ">Language : English, Telugu, Hindi</p>
       </div>
       <div className="bg-colorbg2 w-[85%] m-auto p-10 flex justify-between items-center 2xl:w-[75%] max-md:flex-col">
         <form className="form w-[75%] mx-auto">
