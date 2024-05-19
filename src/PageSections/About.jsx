@@ -2,11 +2,9 @@
 /* eslint-disable react/no-unescaped-entities */
 export default function About({ childElement }) {
   return (
-    <div
-      id="About"
-      ref={childElement}
-      className="w-full h-full bg-[url('/denys-nevozhai-duo-xV0TU7s-unsplash.jpg')] bg-scroll bg-cover bg-top bg-no-repeat text-colorGreyLight clipSkill2">
-      <div className="h-full p-[2rem] bg-[#1e293bd7]">
+    <div id="About" ref={childElement} className="w-full text-colorGreyLight">
+      <div className="h-full p-[7vw] bg-[#1e293bd7] flex flex-col clipHome3">
+        <div className="w-full text-center p-4 text-4xl">About Me</div>
         <div className="w-[80%] mx-auto text-[1.2rem] font-light flex flex-col gap-8">
           <p>
             Welcome to my corner of the web! I'm Mohith, I am currently persuing

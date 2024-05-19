@@ -21,26 +21,12 @@ function App() {
   // Add scroll event listener
   return (
     <div
-      className="homeBG1 m-0 bg-cover bg-no-repeat w-[100%] h-[100vh]"
+      className="homeBG1 m-0 bg-cover bg-no-repeat w-[100vw] h-[100vh] selection:text-colorGreyLight selection:bg-colorSelectLight"
       ref={parentElement}>
-      <div className="flex w-[99.8%] justify-between">
-        <Page scrollToSection={scrollToSection} childElement={childElement} />
-        <Header scrollToSection={scrollToSection} />
-      </div>
+      <Header scrollToSection={scrollToSection} />
+      <Page scrollToSection={scrollToSection} childElement={childElement} />
     </div>
   );
 }
 
 export default App;
-
-//  <div className="min-h-[100vh]  text-colorTextB w-full selection:text-colorGreyLight selection:bg-colorSelectLight font-lato">
-//     <div className="bg-[url('/snow-1868299_1920.jpg')] w-full h-full bg-scroll bg-cover bg-top bg-no-repeat z-10">
-//       <div className="bg-gradient-to-r from-colorbg1 to-colorbg2">
-//         {/* <Header /> */}
-//         <Page />
-//       </div>
-//     </div>
-//     {/* <Skills />
-//     <Wall />
-//     <About /> */}
-//   </div>

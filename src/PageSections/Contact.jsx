@@ -3,20 +3,16 @@ export default function Contact() {
     // <section className="py-20 bg-gradient-to-r font-lato from-[#7dd4fc88] to-[#0ea4e9ab]">
     <div
       id="Contact"
-      className="homeBG2 bg-cover h-full rounded-md shadow-lg justify-center items-center flex">
-      <div className="bg-colorbg2 w-[85%] m-auto p-10 flex justify-between items-center">
-        <div className="w-[20%] flex flex-col my-4 justify-start gap-6">
-          <p className="text-colorGreyLight text-lg">Phone : 9121264144 </p>
-          <p className="text-colorGreyLight text-lg">
-            Email : mohith8861@gmail.com{" "}
-          </p>
-          <p className="text-colorGreyLight text-lg">
-            Language : English,Telugu, Hindi
-          </p>
-        </div>
-        <form className="form w-[75%]">
+      className="homeBG2 py-8 bg-cover w-full h-full rounded-md shadow-lg justify-center items-center flex-col">
+      <div className="w-full bg-colorGreyLight py-8 mb-8 text-colorTextB text-[1.3rem] font-[450] text-center flex max-md:flex-col max-md:w-full gap-6 justify-around">
+        <p>Phone : 9121264144 </p>
+        <p>Email : mohith8861@gmail.com </p>
+        <p>Language : English,Telugu, Hindi</p>
+      </div>
+      <div className="bg-colorbg2 w-[85%] m-auto p-10 flex justify-between items-center 2xl:w-[75%] max-md:flex-col">
+        <form className="form w-[75%] mx-auto">
           <div className="mb-8">
-            <h2 className="text-2xl text-colorGreyLight font-semibold mb-6">
+            <h2 className="text-2xl text-colorTextB font-semibold mb-6">
               Lets Talk..!
             </h2>
           </div>

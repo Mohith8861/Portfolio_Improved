@@ -4,15 +4,17 @@
 import About from "./PageSections/About";
 import Contact from "./PageSections/Contact";
 import Home from "./PageSections/Home";
+import Progress from "./PageSections/Progress";
 import Resume from "./PageSections/Resume";
 import Skill from "./PageSections/Skill";
 
 export default function Page({ childElement }) {
   return (
-    <div className="bg-gradient-to-r from-colorbg1 to-colorbg2 m-auto w-[80%] h-[90vh] border-4 border-colorGreyLight justify-around items-center overflow-y-scroll scroll-smooth no-scrollbar slidein transition-all duration-300">
+    <div className="font-normal bg-gradient-to-r from-colorbg1 to-colorbg2 max-w-[100vw] h-full m-0 overflow-x-hidden border-colorGreyLight justify-around items-center scroll-smooth overflow-y-auto no-scrollbar slidein transition-all duration-300">
       <Home />
-      <About childElement={childElement} />
+      <About />
       <Skill />
+      {/* <Progress /> */}
       <Resume />
       <Contact />
     </div>

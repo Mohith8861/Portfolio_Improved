@@ -1,16 +1,16 @@
 export default function Home() {
   return (
     <div
-      className="w-full px-8 py-8 h-full slideup flex items-center"
+      className="w-full px-8 py-8 h-full slideup flex max-md:flex-col max-md:pt-[15vw] items-center"
       id="Home">
       <div className="mx-auto mb-8 w-[15rem] h-[15rem] rounded-full overflow-hidden">
         <img src="mypic.jpg" className="w-full h-full" alt="" />
       </div>
       <div className="mx-auto w-[60%] text-center flex flex-col">
-        <p className="inline-block text-[2.5rem] max-sm:text-[1rem] my-0 hover:text-colorGreyLight transition-all duration-300 font-lato font-[400]">
+        <p className="inline-block text-[2.5rem] max-md:text-[2rem] my-0 hover:text-colorGreyLight transition-all duration-300 font-lato font-[400]">
           Mohith Chowdary Daruri
         </p>
-        <p className="inline-block text-[1.5rem] mt-[2rem]">
+        <p className="w-full text-[1.5rem] mt-[2rem]">
           A Full Stack Developer, highly motivated towards learning and adapting
           to new technologies. Committed to continuous learning and growth in
           the field of software engineering. I am fueled by a passion for
