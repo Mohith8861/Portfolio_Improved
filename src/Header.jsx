@@ -24,9 +24,11 @@ export default function Header({ scrollToSection }) {
       </div>
       <div className="w-[50%] flex justify-around gap-6">
         <div
-          className="h-full w-full flex gap-4 items-center text-[1rem] px-4 py-4 font-semibold leading-8 hover:bg-colorSelectLight hover:text-colorGreyLight transition-all duration-300 ease-in text-center"
+          className="h-full w-full flex gap-4 justify-center items-center text-[1rem] px-4 py-4 font-semibold leading-8 hover:bg-colorSelectLight hover:text-colorGreyLight transition-all duration-300 ease-in text-center"
           onClick={() => scrollToSection("Home")}>
-          <a href="#Home" className="flex items-center gap-2 justify-around">
+          <a
+            href="#Home"
+            className="w-full flex items-center justify-center gap-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -44,9 +46,11 @@ export default function Header({ scrollToSection }) {
           </a>
         </div>
         <div
-          className="h-full w-full flex gap-4 items-center text-[1rem] px-4 py-4 font-semibold leading-8 hover:bg-colorSelectLight hover:text-colorGreyLight transition-all duration-300 ease-in text-center"
+          className="h-full w-full flex gap-4 justify-center items-center text-[1rem] px-4 py-4 font-semibold leading-8 hover:bg-colorSelectLight hover:text-colorGreyLight transition-all duration-300 ease-in text-center"
           onClick={() => scrollToSection("About")}>
-          <a href="#About" className="flex items-center gap-2 justify-around">
+          <a
+            href="#About"
+            className="w-full flex items-center justify-center gap-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -64,9 +68,11 @@ export default function Header({ scrollToSection }) {
           </a>
         </div>
         <div
-          className="h-full w-full flex gap-4 items-center text-[1rem] px-4 py-4 font-semibold leading-8 hover:bg-colorSelectLight hover:text-colorGreyLight transition-all duration-300 ease-in text-center"
+          className="h-full w-full flex gap-4 justify-center items-center text-[1rem] px-4 py-4 font-semibold leading-8 hover:bg-colorSelectLight hover:text-colorGreyLight transition-all duration-300 ease-in text-center"
           onClick={() => scrollToSection("Skills")}>
-          <a href="#Skills" className="flex items-center gap-2 justify-around">
+          <a
+            href="#Skills"
+            className="w-full flex items-center justify-center gap-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -84,9 +90,11 @@ export default function Header({ scrollToSection }) {
           </a>
         </div>
         <div
-          className="h-full w-full flex gap-4 items-center text-[1rem] px-4 py-4 font-semibold leading-8 hover:bg-colorSelectLight hover:text-colorGreyLight transition-all duration-300 ease-in text-center"
+          className="h-full w-full flex gap-4 justify-center items-center text-[1rem] px-4 py-4 font-semibold leading-8 hover:bg-colorSelectLight hover:text-colorGreyLight transition-all duration-300 ease-in text-center"
           onClick={() => scrollToSection("Resume")}>
-          <a href="#Resume" className="flex items-center gap-2 justify-around">
+          <a
+            href="#Resume"
+            className="w-full flex items-center justify-center gap-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -104,9 +112,11 @@ export default function Header({ scrollToSection }) {
           </a>
         </div>{" "}
         <div
-          className="h-full w-full flex gap-4 items-center text-[1rem] px-4 py-4 font-semibold leading-8 hover:bg-colorSelectLight hover:text-colorGreyLight transition-all duration-300 ease-in text-center"
+          className="h-full w-full flex gap-4 justify-center items-center text-[1rem] px-4 py-4 font-semibold leading-8 hover:bg-colorSelectLight hover:text-colorGreyLight transition-all duration-300 ease-in text-center"
           onClick={() => scrollToSection("Contact")}>
-          <a href="#Contact" className="flex items-center gap-2 justify-around">
+          <a
+            href="#Contact"
+            className="w-full flex items-center justify-center gap-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
