@@ -21,7 +21,7 @@ function App() {
   // Add scroll event listener
   return (
     <div
-      className="homeBG1 m-0 bg-cover bg-no-repeat w-[100vw] h-[100vh] text-colorTextB selection:text-colorGreyLight selection:bg-colorSelectLight"
+      className="homeBG1 m-0 bg-cover bg-no-repeat w-[100vw] h-[100vh] text-colorTextB selection:text-colorGreyLight selection:bg-colorSelectLight max-lg:bg-fixed"
       ref={parentElement}>
       <Header scrollToSection={scrollToSection} />
       <Page scrollToSection={scrollToSection} childElement={childElement} />

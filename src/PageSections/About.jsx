@@ -3,9 +3,11 @@
 export default function About({ childElement }) {
   return (
     <div id="About" ref={childElement} className="w-full text-colorGreyLight">
-      <div className="h-full p-[7vw] bg-[#1e293bd7] flex flex-col clipHome3">
-        <div className="w-full text-center p-4 text-4xl">About Me</div>
-        <div className="w-[80%] mx-auto text-[1.2rem] font-light flex flex-col gap-8">
+      <div className="h-full p-[7vw] bg-[#1e293bd7] flex flex-col clipHome3 max-lg:px-[1.2vw]">
+        <div className="w-full text-center p-4 text-4xl max-lg:text-2xl">
+          About Me
+        </div>
+        <div className="w-[80%] mx-auto text-[1.2rem] font-light flex flex-col gap-8 max-lg:text-[0.8rem] max-lg:gap-4">
           <p>
             Welcome to my corner of the web! I'm Mohith, I am currently persuing
             B.Tech in Institute of Aeronautical Engineering, in the stream of
@@ -35,7 +37,9 @@ export default function About({ childElement }) {
           </p>
         </div>
         <div className="w-full text-center">
-          <p className="text-[3rem] font-sacramento">Mohith</p>
+          <p className="text-[3rem] font-sacramento max-lg:text-[1.5rem]">
+            Mohith
+          </p>
         </div>
       </div>
     </div>

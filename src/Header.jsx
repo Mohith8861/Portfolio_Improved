@@ -2,8 +2,8 @@
 /* eslint-disable no-unused-vars */
 export default function Header({ scrollToSection }) {
   return (
-    <div className="bg-colorGreyLight w-full h-[4rem] flex justify-between items-center fixed z-50">
-      <div className="w-[20%] text-center m-auto">
+    <div className="bg-colorGreyLight w-full h-[4rem] flex justify-between items-center fixed z-50 max-lg:text-[0rem] max-lg:h-12">
+      <div className="w-[10%] text-center m-auto max-lg:hidden">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           version="1.1"
@@ -22,9 +22,9 @@ export default function Header({ scrollToSection }) {
           />
         </svg>
       </div>
-      <div className="w-[50%] flex justify-around gap-6">
+      <div className="w-[70%] flex justify-around gap-6 max-lg:w-full">
         <div
-          className="h-full w-full flex gap-4 justify-center items-center text-[1rem] px-4 py-4 font-semibold leading-8 hover:bg-colorSelectLight hover:text-colorGreyLight transition-all duration-300 ease-in text-center"
+          className="h-full w-full flex gap-4 justify-center items-center p-4 max-lg:p-2 font-semibold leading-8 hover:bg-colorSelectLight hover:text-colorGreyLight transition-all duration-300 ease-in text-center"
           onClick={() => scrollToSection("Home")}>
           <a
             href="#Home"
@@ -46,7 +46,7 @@ export default function Header({ scrollToSection }) {
           </a>
         </div>
         <div
-          className="h-full w-full flex gap-4 justify-center items-center text-[1rem] px-4 py-4 font-semibold leading-8 hover:bg-colorSelectLight hover:text-colorGreyLight transition-all duration-300 ease-in text-center"
+          className="h-full w-full flex gap-4 justify-center items-center p-4 max-lg:p-2 font-semibold leading-8 hover:bg-colorSelectLight hover:text-colorGreyLight transition-all duration-300 ease-in text-center"
           onClick={() => scrollToSection("About")}>
           <a
             href="#About"
@@ -68,7 +68,7 @@ export default function Header({ scrollToSection }) {
           </a>
         </div>
         <div
-          className="h-full w-full flex gap-4 justify-center items-center text-[1rem] px-4 py-4 font-semibold leading-8 hover:bg-colorSelectLight hover:text-colorGreyLight transition-all duration-300 ease-in text-center"
+          className="h-full w-full flex gap-4 justify-center items-center p-4 max-lg:p-2 font-semibold leading-8 hover:bg-colorSelectLight hover:text-colorGreyLight transition-all duration-300 ease-in text-center"
           onClick={() => scrollToSection("Skills")}>
           <a
             href="#Skills"
@@ -90,7 +90,7 @@ export default function Header({ scrollToSection }) {
           </a>
         </div>
         <div
-          className="h-full w-full flex gap-4 justify-center items-center text-[1rem] px-4 py-4 font-semibold leading-8 hover:bg-colorSelectLight hover:text-colorGreyLight transition-all duration-300 ease-in text-center"
+          className="h-full w-full flex gap-4 justify-center items-center p-4 max-lg:p-2 font-semibold leading-8 hover:bg-colorSelectLight hover:text-colorGreyLight transition-all duration-300 ease-in text-center"
           onClick={() => scrollToSection("Resume")}>
           <a
             href="#Resume"
@@ -112,7 +112,7 @@ export default function Header({ scrollToSection }) {
           </a>
         </div>{" "}
         <div
-          className="h-full w-full flex gap-4 justify-center items-center text-[1rem] px-4 py-4 font-semibold leading-8 hover:bg-colorSelectLight hover:text-colorGreyLight transition-all duration-300 ease-in text-center"
+          className="h-full w-full flex gap-4 justify-center items-center p-4 max-lg:p-2 font-semibold leading-8 hover:bg-colorSelectLight hover:text-colorGreyLight transition-all duration-300 ease-in text-center"
           onClick={() => scrollToSection("Contact")}>
           <a
             href="#Contact"
