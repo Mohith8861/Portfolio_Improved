@@ -6,7 +6,7 @@ export default function Home() {
       <div className="mx-auto mb-8 w-[15rem] h-auto overflow-hidden border-4 border-colorGreyLight p-2 rounded-lg hover:border-colorTextB max-lg:mt-12 max-lg:w-[10rem]">
         <img src="mypic.jpg" className="w-full h-auto" alt="" />
       </div>
-      <div className="mx-auto w-[60%] text-center flex flex-col max-lg:w-[90%]">
+      <div className="mx-auto w-[60%] text-center flex flex-col max-lg:w-[90%] text-colorTextB ">
         <p className="inline-block text-[2.5rem] my-0 hover:text-colorGreyLight transition-all duration-300 font-lato font-[400] max-lg:text-[1.5rem]">
           Mohith Chowdary Daruri
         </p>
@@ -22,7 +22,7 @@ export default function Home() {
             href="https://www.linkedin.com/in/mohith-chowdary-daruri-a75452213/"
             target="_blank">
             <svg
-              className="hover:fill-[white] fill-colorTextB w-8"
+              className="hover:fill-[white] fill-colorTextB w-10"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 50 50"
               width="50px"
@@ -33,7 +33,7 @@ export default function Home() {
           </a>
           <a href="">
             <svg
-              className="hover:fill-[white] fill-colorTextB w-8"
+              className="hover:fill-[white] fill-colorTextB w-10"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 50 50"
               width="50px"
@@ -44,7 +44,7 @@ export default function Home() {
           </a>{" "}
           <a href="https://github.com/Mohith8861" target="_blank">
             <svg
-              className="hover:fill-[white] fill-colorTextB w-8"
+              className="hover:fill-[white] fill-colorTextB w-10"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 50 50"
               width="50px"
@@ -55,7 +55,7 @@ export default function Home() {
           </a>
           <a href="">
             <svg
-              className="hover:fill-[white] fill-colorTextB w-8"
+              className="hover:fill-[white] fill-colorTextB w-10"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 50 50"
               width="50px"
