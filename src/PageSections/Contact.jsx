@@ -82,7 +82,7 @@ export default function Contact() {
           </div>
         </form>{" "}
         <div
-          className={`px-2 h-12 text-center py-2 bg-colorGreyLight border-2 border-colorTextB text-colorTextB fixed top-[8%] left-[45%] z-50 transition-all duration-300 ease-in-out ${
+          className={`h-12 text-center px-4 pt-[0.6rem] text-[1.2rem] border-colorGreyLight border-x-[0.4rem] bg-colorTextB text-colorGreyLight fixed top-[15%] left-[48%] z-50 transition-all duration-300 ease-in-out ${
             result.length === 0 ? "opacity-0" : "opacity-100"
           }`}>
           <p>{result}</p>
