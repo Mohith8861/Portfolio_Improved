@@ -1,6 +1,36 @@
+import { useState } from "react";
+
 export default function Contact() {
+  //   export default function Contact() {
+  const [result, setResult] = useState("");
+
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    setResult("Sending....");
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "d3652464-e077-4bbb-9034-0865f0437f5e");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData,
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      setResult("Form Submitted Successfully");
+      event.target.reset();
+      setTimeout(() => {
+        setResult("");
+      }, 3000);
+    } else {
+      console.log("Error", data);
+      setResult(data.message);
+    }
+  };
+
   return (
-    // <section className="py-20 bg-gradient-to-r font-lato from-[#7dd4fc88] to-[#0ea4e9ab]">
     <div
       id="Contact"
       className="homeBG2 py-8 bg-cover w-full h-full rounded-md shadow-lg justify-center items-center flex-col max-lg:bg-fixed">
@@ -10,7 +40,7 @@ export default function Contact() {
         <p className="border-l-4 px-2 ">Language : English, Telugu, Hindi</p>
       </div>
       <div className="bg-colorbg2 w-[85%] m-auto p-10 flex justify-between items-center 2xl:w-[75%] max-lg:px-2 max-lg:w-[90%]">
-        <form className="form w-[75%] mx-auto">
+        <form className="form w-[75%] mx-auto" onSubmit={onSubmit}>
           <div className="mb-8">
             <h2 className="text-2xl text-colorTextB font-semibold mb-6">
               Lets Talk..!
@@ -50,7 +80,13 @@ export default function Contact() {
               Next step &rarr;
             </button>
           </div>
-        </form>
+        </form>{" "}
+        <div
+          className={`px-2 h-12 text-center py-2 bg-colorGreyLight border-2 border-colorTextB text-colorTextB fixed top-[8%] left-[45%] z-50 transition-all duration-300 ease-in-out ${
+            result.length === 0 ? "opacity-0" : "opacity-100"
+          }`}>
+          <p>{result}</p>
+        </div>
       </div>
     </div>
   );
