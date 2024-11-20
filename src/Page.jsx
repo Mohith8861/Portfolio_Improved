@@ -10,7 +10,7 @@ import Skill from "./PageSections/Skill";
 
 export default function Page({ childElement }) {
   return (
-    <div className="font-normal bg-gradient-to-r from-colorbg1 to-colorbg2 max-w-[100vw] h-full m-0 overflow-x-hidden border-colorGreyLight justify-around items-center scroll-smooth overflow-y-auto no-scrollbar slidein transition-all duration-300">
+    <div className="font-normal bg-gradient-to-r bg-colorGreyLight max-w-[100vw] h-full m-0 overflow-x-hidden border-colorGreyLight justify-around items-center scroll-smooth overflow-y-auto no-scrollbar slidein transition-all duration-300">
       <Home />
       <About />
       <Skill />

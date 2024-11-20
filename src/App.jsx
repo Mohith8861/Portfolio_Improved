@@ -1,10 +1,7 @@
-/* eslint-disable no-unused-vars */
-import { motion } from "framer-motion";
 import Page from "./Page.jsx";
-
-import "./index.css";
 import Header from "./Header.jsx";
-import { useEffect, useRef } from "react";
+import { useRef } from "react";
+import "./index.css";
 
 function App() {
   const parentElement = useRef(null);
@@ -16,9 +13,6 @@ function App() {
     section.scrollIntoView({ behavior: "smooth" });
   };
 
-  // Function to check if the child element is in view
-
-  // Add scroll event listener
   return (
     <div
       className="homeBG1 m-0 bg-cover bg-no-repeat w-[100vw] h-[100vh] text-colorTextB selection:text-colorGreyLight selection:bg-colorSelectLight max-lg:bg-fixed"

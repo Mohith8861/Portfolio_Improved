@@ -4,16 +4,18 @@ export default {
   theme: {
     colors: {
       colorbg1: "#7dd4fc88",
-      colorbg2: "#0ea4e9ab",
+      colorbg2: "#0ea4e994",
       colorGreyLight: "#f7f7f7",
-      colorSelectLight: "#2bc7ee",
-      colorTextB: "#1e1b4b",
+      // colorSelectLight: "#2bc7ee",
+      colorSelectLight: "#3ab8de",
+      // colorTextB: "#1e1b4b",
+      colorTextB: "#0b0566",
       colorTertiaryLight: "#2998ff",
       colorTertiaryDark: "#5643fa",
       colorGreyDark: "#777",
     },
     animation: {
-      "spin-slow": "spin 8s linear infinite",
+      "spin-slow": "spin 10s linear infinite",
     },
     extend: {
       fontFamily: {
