@@ -31,6 +31,10 @@
     background-image: linear-gradient(to right, #0ea4e9ab, #0ea4e9ab);
   }
 
+  .resume{
+    background-image: linear-gradient(to right,#f7f7f7af,#f7f7f7af),url("/marco-luzi-ozephPK8J7k-unsplash.jpg");
+  }
+
   .no-scrollbar::-webkit-scrollbar {
     display: none;
   }
