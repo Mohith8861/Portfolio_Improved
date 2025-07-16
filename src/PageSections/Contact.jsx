@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 export default function Contact() {
+  //   export default function Contact() {
   const [result, setResult] = useState("");
 
   const onSubmit = async (event) => {
