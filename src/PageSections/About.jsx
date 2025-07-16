@@ -2,10 +2,7 @@
 /* eslint-disable react/no-unescaped-entities */
 export default function About({ childElement }) {
   return (
-    <div
-      id="About"
-      ref={childElement}
-      className="w-full text-colorGreyLight mt-[-8%]">
+     <div id="About" ref={childElement} className="w-full text-colorGreyLight">
       <div className="h-full p-[7vw] bg-[#1e293bd7] flex flex-col clipHome3 max-lg:px-[1.2vw]">
         <div className="w-full text-center p-4 text-4xl max-lg:text-2xl">
           About Me

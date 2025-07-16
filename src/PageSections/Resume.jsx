@@ -2,8 +2,7 @@ export default function Resume() {
   return (
     <div
       id="Resume"
-      className="w-full bg-scroll bg-cover bg-top bg-no-repeat bg-colorGreyLight text-colorTextB font-[350] leading-6 clipSkill2">
-      <div className="h-full p-[1.5rem] flex flex-col gap-6">
+ className="w-full bg-scroll bg-cover bg-top bg-no-repeat bg-colorGreyLight text-[#030247d8] font-[350] leading-6 clipSkill2">      <div className="h-full p-[1.5rem] flex flex-col gap-6">
         <div className="w-full text-[2rem] font-normal text-center max-lg:text-[1.5rem]">
           Education
         </div>

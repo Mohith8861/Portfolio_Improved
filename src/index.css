@@ -28,7 +28,7 @@
   .skillBg {
     /* background-image: linear-gradient(to right, #7dd4fc88, #0ea4e9ab); */
     /* background-image: linear-gradient(to right, #0ea4e9ab, #0ea4e9ab); */
-    background-image: linear-gradient(to right, #ffffffcc, #ffffffc7);
+    background-image: linear-gradient(to right, #0ea4e9ab, #0ea4e9ab);
   }
 
   .no-scrollbar::-webkit-scrollbar {
@@ -36,14 +36,14 @@
   }
   .homeBG1 {
     background-image: linear-gradient(to right, #ffffff54, #ffffff54),
-      url("../public/snow-1868299_1920.jpg");
+      url("/snow-1868299_1920.jpg");
     background-position: top;
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
   }
   .homeBG2 {
     background-image: linear-gradient(to right, #f3f3f3c2, #f3f3f3c2),
-      url("../public/denys-nevozhai-duo-xV0TU7s-unsplash.jpg");
+      url("/denys-nevozhai-duo-xV0TU7s-unsplash.jpg");
     background-position: top;
     background-repeat: no-repeat;
     background-size: 100vw 100vh;

@@ -1,8 +1,7 @@
 export default function Home() {
   return (
     <div
-      className="w-full bg-colorbg2 clipHome px-4 py-8 h-full slideup flex items-center text-colorTextB max-lg:flex-col max-lg:h-auto max-lg:px-2"
-      id="Home">
+className="w-full px-4 py-8 h-full slideup flex items-center text-colorTextB max-lg:flex-col max-lg:h-auto max-lg:px-2"      id="Home">
       <div className="mx-auto mb-8 w-[15rem] h-auto overflow-hidden border-4 border-colorGreyLight p-2 rounded-lg hover:border-colorTextB max-lg:mt-12 max-lg:w-[10rem]">
         <img src="mypic.jpg" className="w-full h-auto" alt="" />
       </div>
