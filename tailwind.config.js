@@ -11,10 +11,10 @@ export default {
       colorTertiaryLight: "#2998ff",
       colorTertiaryDark: "#5643fa",
       colorGreyDark: "#777",
+      colorWhite: "#ffffff",
     },
     animation: {
       "spin-slow": "spin 10s linear infinite",
-
     },
     extend: {
       fontFamily: {

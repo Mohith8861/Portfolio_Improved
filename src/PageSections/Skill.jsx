@@ -65,26 +65,28 @@ export default function Skill() {
           return (
             <div
               key={e.img}
-              className="w-full h-full mx-auto rounded-md px-8 py-4 flex flex-col gap-4 justify-between items-center max-lg:px-4">
+              className="w-full h-full mx-auto rounded-md px-8 py-4 flex flex-col gap-4 justify-between items-center max-lg:px-4"
+            >
               <div className="w-[50%] 2xl:w-[40%] h-[50%] my-auto">
                 <div className="rounded-full w-full h-full">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     version="1.1"
-                    className="m-auto w-full h-full hover:fill-colorTextB"
+                    className="m-auto w-full h-full hover:fill-[white] hover:stroke-[white]"
                     id="Layer_1"
                     fill="#1e1b4be1"
                     stroke="#5643fa"
                     strokeWidth="0.01rem"
                     width="100"
                     height="100"
-                    viewBox={`0 0 ${e.x} ${e.y}`}>
+                    viewBox={`0 0 ${e.x} ${e.y}`}
+                  >
                     <path strokeMiterlimit="10" d={e.img} />
                   </svg>
                 </div>
               </div>
 
-              <div className="w-[80%] h-[50%] text-colorTextB text-center py-4">
+              <div className="w-[80%] h-[50%] text-colorTextB hover:text-[white] text-center py-4">
                 <p className="text-2xl max-lg:text-lg">{e.name}</p>
               </div>
             </div>
