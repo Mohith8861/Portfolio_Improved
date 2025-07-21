@@ -24,7 +24,7 @@ export default function Home() {
             target="_blank"
           >
             <svg
-              className="hover:fill-[white] fill-colorTextB w-10"
+              className="hover:fill-[white] fill-colorTextB w-10 transition-colors duration-300"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 50 50"
               width="50px"
@@ -36,7 +36,7 @@ export default function Home() {
           </a>
           <a href="https://www.instagram.com/mohithdaruru/" target="_blank">
             <svg
-              className="hover:fill-[white] fill-colorTextB w-10"
+              className="hover:fill-[white] fill-colorTextB w-10 transition-colors duration-300"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 50 50"
               width="50px"
@@ -48,7 +48,7 @@ export default function Home() {
           </a>{" "}
           <a href="https://github.com/Mohith8861" target="_blank">
             <svg
-              className="hover:fill-[white] fill-colorTextB w-10"
+              className="hover:fill-[white] fill-colorTextB w-10 transition-colors duration-300"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 50 50"
               width="50px"
@@ -60,7 +60,7 @@ export default function Home() {
           </a>
           <a href="https://x.com/Mohith8861" target="_blank">
             <svg
-              className="hover:fill-[white] fill-colorTextB w-10"
+              className="hover:fill-[white] fill-colorTextB w-10 transition-colors duration-300"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 50 50"
               width="50px"

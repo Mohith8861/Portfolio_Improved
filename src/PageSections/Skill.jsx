@@ -72,7 +72,7 @@ export default function Skill() {
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     version="1.1"
-                    className="m-auto w-full h-full hover:fill-[white] hover:stroke-[white]"
+                    className="m-auto w-full h-full hover:fill-[white] hover:stroke-[white] transition-colors duration-300"
                     id="Layer_1"
                     fill="#1e1b4be1"
                     stroke="#5643fa"
@@ -86,7 +86,7 @@ export default function Skill() {
                 </div>
               </div>
 
-              <div className="w-[80%] h-[50%] text-colorTextB hover:text-[white] text-center py-4">
+              <div className="w-[80%] h-[50%] text-colorTextB text-center py-4">
                 <p className="text-2xl max-lg:text-lg">{e.name}</p>
               </div>
             </div>

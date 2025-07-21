@@ -36,13 +36,17 @@ export default function Contact() {
   return (
     <div
       id="Contact"
-      className="homeBG2 py-8 bg-cover w-full rounded-md shadow-lg justify-center items-center flex-col max-lg:bg-fixed">
+      className="homeBG2 py-8 bg-cover w-full rounded-md shadow-lg justify-center items-center flex-col max-lg:bg-fixed"
+    >
       <div className="w-full bg-colorGreyLight py-8 mb-8 text-colorTextB text-[1.3rem] font-[450] text-center flex gap-6 justify-around max-lg:flex-col max-lg:text-[1rem]">
         <p className="border-l-4 px-2 ">Phone : 9121264144 </p>
         <p className="border-l-4 px-2 ">Email : mohith8861@gmail.com </p>
         <p className="border-l-4 px-2 ">Language : English, Telugu, Hindi</p>
       </div>
-      <div className="bg-colorbg2 w-[85%] m-auto p-10 flex justify-between items-center 2xl:w-[75%] max-lg:px-2 max-lg:w-[90%]" onSubmit={onSubmit}>
+      <div
+        className="bg-colorbg2 w-[85%] m-auto p-10 flex justify-between items-center 2xl:w-[75%] max-lg:px-2 max-lg:w-[90%]"
+        onSubmit={onSubmit}
+      >
         <form className="form w-[75%] mx-auto">
           <div className="mb-8">
             <h2 className="text-2xl text-colorTextB font-semibold mb-6">
@@ -83,13 +87,15 @@ export default function Contact() {
           </div>
           <div>
             <button className="bg-colorGreyLight text-white px-6 py-3 rounded-sm hover:bg-colorTextB hover:text-colorGreyLight transition-colors duration-300">
-              Next step &rarr;
+              Send &rarr;
             </button>
           </div>
         </form>
         <div
-          className={`h-12 text-center px-4 pt-[0.6rem] text-[1.2rem] border-colorGreyLight border-x-[0.4rem] bg-colorTextB text-colorGreyLight fixed top-[15%] left-[42%] z-50 transition-all duration-300 ease-in-out ${result.length === 0 ? "opacity-0" : "opacity-100"
-            }`}>
+          className={`h-12 text-center px-4 pt-[0.6rem] text-[1.2rem] border-colorGreyLight border-x-[0.4rem] bg-colorTextB text-colorGreyLight fixed top-[15%] left-[42%] z-50 transition-all duration-300 ease-in-out ${
+            result.length === 0 ? "opacity-0" : "opacity-100"
+          }`}
+        >
           <p>{result}</p>
         </div>
       </div>
